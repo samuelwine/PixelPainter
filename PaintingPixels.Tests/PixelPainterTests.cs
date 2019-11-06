@@ -9,15 +9,15 @@ namespace PaintingPixels.Tests
     public class PixelPainterTests
     {
         [TestMethod]
-        public void CreateGrid_CanCreateGrid()
+        public void PixelPainter_CanCreateGrid()
         {
             //  Arrange - Act
-            PixelPainter pixelPainter = new PixelPainter(9,9);
-            PixelPainter pixelPainter1 = new PixelPainter(20,50);
+            PixelPainter nineByNinePixelPainter = new PixelPainter(9,9);
+            PixelPainter twentyByFiftyPixelPainter = new PixelPainter(20,50);
             
             //  Assert
-            Assert.AreEqual(81, pixelPainter.Grid.Count);
-            Assert.AreEqual(1000, pixelPainter1.Grid.Count);            
+            Assert.AreEqual(81, nineByNinePixelPainter.Grid.Count);
+            Assert.AreEqual(1000, twentyByFiftyPixelPainter.Grid.Count);            
         }
 
         [TestMethod]
