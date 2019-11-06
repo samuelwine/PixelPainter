@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.645
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaintingPixels", "PaintingPixels\PaintingPixels.csproj", "{BA063F10-B25A-420D-BBBB-82F155BE0576}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaintingPixels.Tests", "PaintingPixels.Tests\PaintingPixels.Tests.csproj", "{AF072FD9-2E1D-4243-97D0-ED4D48AB5848}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA063F10-B25A-420D-BBBB-82F155BE0576}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA063F10-B25A-420D-BBBB-82F155BE0576}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA063F10-B25A-420D-BBBB-82F155BE0576}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA063F10-B25A-420D-BBBB-82F155BE0576}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF072FD9-2E1D-4243-97D0-ED4D48AB5848}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF072FD9-2E1D-4243-97D0-ED4D48AB5848}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF072FD9-2E1D-4243-97D0-ED4D48AB5848}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF072FD9-2E1D-4243-97D0-ED4D48AB5848}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2F74E41-8EAE-4855-9640-95BEF138515F}
+	EndGlobalSection
+EndGlobal
