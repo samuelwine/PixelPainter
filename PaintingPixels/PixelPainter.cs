@@ -58,7 +58,7 @@ namespace PaintingPixels
                         //  if the pixel falls between firstpixel and endpixel
                         if (pixel.Y >= firstPixel.Y && pixel.Y <= endPixel.Y && pixel.X == firstPixel.X)
                         {
-                            Grid[pixel] = Color.Red;
+                            Grid[pixel] = selectedColor;
                         }
                     }                    
                 }
@@ -78,7 +78,7 @@ namespace PaintingPixels
                         //  if the pixel falls between firstpixel and endpixel
                         if (pixel.X >= firstPixel.X && pixel.X <= endPixel.X && pixel.Y == firstPixel.Y)
                         {
-                            Grid[pixel] = Color.Red;
+                            Grid[pixel] = selectedColor;
                         }
                     }
                 }
